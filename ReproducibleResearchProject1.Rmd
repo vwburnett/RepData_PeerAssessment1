@@ -10,7 +10,7 @@ output: html_document
 This is the first project of the Reproducible Research model that analyse activity data.
 
 ```{r load data, echo=TRUE}
-setwd("C:/Users/vwbur_000/Documents/R/csv files")
+filename <- "activity.zip"
 #Unzipfile
 if(!file.exists("activity.csv")){
   unzip(filename)
